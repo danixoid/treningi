@@ -1,0 +1,786 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rambo v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-26 20:13+0200\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ rambo
+#: 404.php:16
+msgid "Unfortunately, the page you tried accessing could not be retrieved. "
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ rambo
+#: 404.php:18
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск сможет помочь."
+
+# @ rambo
+#: archive.php:11
+msgid "Daily Archives: "
+msgstr "День: "
+
+# @ rambo
+#: archive.php:13
+msgid "Monthly Archives: "
+msgstr "Месяц: "
+
+# @ rambo
+#: archive.php:15
+msgid "Yearly Archives: "
+msgstr "Год: "
+
+# @ rambo
+#: archive.php:17
+msgid "Blog Archives: "
+msgstr "Архивы: "
+
+# @ rambo
+#: archive.php:39 index.php:37
+msgid "Tags:"
+msgstr "Метки:"
+
+# @ rambo
+#: author.php:16
+msgid "Author Archives : "
+msgstr "Автор архивов : "
+
+# @ rambo
+#: author.php:34 page.php:29 search.php:29 single.php:29
+msgid "By"
+msgstr "От"
+
+# @ rambo
+#: author.php:37 category.php:27 fullwidth.php:26 page.php:31 single.php:31
+msgid "Read More"
+msgstr "Подробнее"
+
+# @ rambo
+#: banner-strip.php:18 searchform.php:13 searchform.php:14
+msgid "Search"
+msgstr "Поиск"
+
+# @ rambo
+#: banner-strip.php:19
+msgid "Go"
+msgstr "OK"
+
+# @ rambo
+#: category.php:16
+msgid "Category  Archives:"
+msgstr "Категория:"
+
+# @ rambo
+#: comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Пожалуйста, введите пароль для просмотра комментариев."
+
+# @ rambo
+#: comments.php:17
+msgid "Comments"
+msgstr "Комментарии"
+
+# @ rambo
+#: comments.php:23 comments.php:34
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ rambo
+#: comments.php:24 comments.php:35
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+# @ rambo
+#: comments.php:25 comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+# @ rambo
+#: comments.php:44
+msgid "You must be"
+msgstr "Вы должны"
+
+# @ rambo
+#: comments.php:44
+msgid "to post a comment"
+msgstr "чтобы оставить комментарий"
+
+# @ rambo
+#: comments.php:68
+msgid "Logged in as "
+msgstr "Вы вошли как "
+
+# @ rambo
+#: comments.php:68
+msgid " Log out?"
+msgstr " Выйти?"
+
+# @ rambo
+#: comments.php:70
+msgid "Post Comment"
+msgstr "Отправить"
+
+# @ rambo
+#: comments.php:72
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+# @ rambo
+#: footer.php:50
+msgid "Powered By "
+msgstr ""
+
+# @ rambo
+#: footer.php:50
+msgid "WordPress"
+msgstr ""
+
+# @ rambo
+#: functions/commentbox/comment-function.php:21
+msgid "Reply"
+msgstr "Ответ"
+
+# @ rambo
+#: functions/commentbox/comment-function.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ rambo
+#: functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr "Главная"
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:87
+msgid "Sr. No."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:88
+msgid "Features"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:89
+msgid "Free"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:90
+msgid "Premium"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:95
+msgid "Home Page Sections "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:101
+msgid "Responsive Home Page Slider"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:106
+msgid "In-Built Color Schemes "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:112
+msgid "Blog Layout Variations"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:118
+msgid "Page Templates"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:123
+msgid "About Us Template, Portfolio Template, Services Template...   "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:129
+msgid "Custom Typography"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:135
+msgid "In-Built Contact Form"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:141
+msgid "Custom Widgets,Shortcodes.."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:147
+msgid "Layout Type"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:148
+msgid "Wide"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:149
+msgid "Wide And Boxed"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:153
+msgid "Theme Support "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:154
+msgid "Via Wordpress Forums"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/UpgradeToPro.php:155
+msgid "Private Forums with Email Support"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:2
+msgid "Footer Custmization"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:44
+msgid "Enable Footer widgets"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:45
+msgid "Enable Footer widgets in all pages."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:48
+msgid "Copy Rights Text"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:51
+msgid "Enter custom copy rights text."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:55
+msgid "Designed By Head"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:58
+msgid "Enter Privacy Policy Text."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:62
+msgid "Designed By Name"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:65
+msgid "Enter Name for Company/Website."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:69
+msgid "Designed By Link"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:72
+msgid "Enter URL for your website."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:81
+#: functions/theme_options/pages/footer_social_media_settings.php:79
+#: functions/theme_options/pages/header_page_settings.php:91
+#: functions/theme_options/pages/home_page_banner_settings.php:67
+#: functions/theme_options/pages/service_page_settings.php:139
+msgid "Options data successfully Saved"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_customization_settings.php:82
+#: functions/theme_options/pages/footer_social_media_settings.php:80
+#: functions/theme_options/pages/header_page_settings.php:92
+#: functions/theme_options/pages/home_page_banner_settings.php:68
+#: functions/theme_options/pages/service_page_settings.php:140
+msgid "Options data successfully reset"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:2
+msgid "Social media Links"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:40
+msgid "Enable Social media in footer "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:41
+msgid "Enable Social media icon in footer section."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:44
+msgid "Twitter Link:"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:47
+msgid "Enter twitter link."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:51
+msgid "Linkedin Links:"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:54
+msgid "Enter linkedin link."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:59
+msgid "Facebook Links:"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:62
+msgid "Enter facebook link."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:67
+msgid "Google Plus Links:"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/footer_social_media_settings.php:70
+msgid "Enter google plus link."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:38
+msgid "Quick Start Settings"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:42
+msgid "Home to Enable Theme Specific Homepage ?"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:43
+msgid ""
+" Create a New Page with the Template \"Business Home Page. Then assign it as "
+"Front Page in the WordPress Settings -> Reading Settings."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:46
+msgid "Custom Logo"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:47
+msgid "Logo must be in 150 X 50 px"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:56
+msgid "Logo Height"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:57
+msgid "Logo height must be less then 80px"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:62
+msgid "Logo Width"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:63
+msgid "Logo width must be less then 200 px"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:68
+msgid "Text Title"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:69
+msgid "Enable text-based Site Title and Tagline. Setup title"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:69
+msgid "tagline in"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:69
+msgid "General Settings"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:72
+msgid "Custom Favicon"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:73
+msgid "Custom Favicon Must be in 25 X 25 px"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:82
+msgid "Custom css"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/header_page_settings.php:84
+msgid "Paste your custom css code and change your layout without code editing."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:2
+msgid "Home Banner Settings"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:38
+msgid "Banner in Front page"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:39
+msgid "Enable Banner on front page."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:42
+msgid "Banner Image"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:43
+msgid "Banner Image must be in 1600 X 400 px"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:52
+msgid "Banner Title"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:54
+msgid "Enter Banner title"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:57
+msgid "Banner Description"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/home_page_banner_settings.php:59
+msgid "Enter Banner description text less then 150 character ."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:2
+#: functions/theme_options/webriti_option_pannel.php:23
+msgid "Service Section"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:67
+msgid "Enable Home Service Section"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:68
+msgid "Enable service section in fornt page."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:72
+msgid "Home Service One "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:74
+#: functions/theme_options/pages/service_page_settings.php:90
+msgid "Fontawesome Icon"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:74
+msgid "Click here to font awesome icon"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:76
+#: functions/theme_options/pages/service_page_settings.php:92
+#: functions/theme_options/pages/service_page_settings.php:108
+#: functions/theme_options/pages/service_page_settings.php:123
+msgid "Enter service fontawesome icon"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:78
+#: functions/theme_options/pages/service_page_settings.php:94
+#: functions/theme_options/pages/service_page_settings.php:110
+#: functions/theme_options/pages/service_page_settings.php:125
+msgid "Title"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:80
+#: functions/theme_options/pages/service_page_settings.php:96
+#: functions/theme_options/pages/service_page_settings.php:127
+msgid "Enter home service title"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:82
+#: functions/theme_options/pages/service_page_settings.php:98
+#: functions/theme_options/pages/service_page_settings.php:114
+#: functions/theme_options/pages/service_page_settings.php:129
+msgid "Description"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:84
+#: functions/theme_options/pages/service_page_settings.php:100
+#: functions/theme_options/pages/service_page_settings.php:116
+#: functions/theme_options/pages/service_page_settings.php:131
+msgid "Enter home service description text less then 150 character ."
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:88
+msgid "home service two "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:104
+msgid "home service three "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:106
+#: functions/theme_options/pages/service_page_settings.php:121
+msgid "Image"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:112
+msgid "Enter home servicetitle"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/pages/service_page_settings.php:119
+msgid "home service fourth "
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:7
+msgid "Rambo"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:9
+msgid "Support Desk"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:10
+msgid "Theme Documentation"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:19
+msgid "Home Page"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:20
+msgid "Quick Start"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:21
+msgid "Banner Setting"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:28
+msgid "Footer Customization"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:31
+msgid "Social media links"
+msgstr ""
+
+# @ rambo
+#: functions/theme_options/webriti_option_pannel.php:34
+msgid "Upgrade To Premium"
+msgstr ""
+
+# @ rambo
+#: functions/widget/custom-sidebar.php:15
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+# @ rambo
+#: functions/widget/custom-sidebar.php:17
+msgid "The primary widget area"
+msgstr ""
+
+# @ rambo
+#: functions/widget/custom-sidebar.php:25
+msgid "Footer Widget Area"
+msgstr ""
+
+# @ rambo
+#: functions/widget/custom-sidebar.php:27
+msgid "footer widget area"
+msgstr ""
+
+# @ rambo
+#: functions.php:41
+msgid "Page"
+msgstr "Страница"
+
+# @ rambo
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+# @ rambo
+#: index-banner.php:18
+msgid "Theme Feature Goes Here !"
+msgstr ""
+
+# @ rambo
+#: index-banner.php:19
+msgid ""
+"This is Dummy Text. This is Dummy Text. This is Dummy Text.  I repeat.. This "
+"is Dummy Text."
+msgstr ""
+
+# @ rambo
+#: index.php:39
+msgid "Read more..."
+msgstr "Подробнее..."
+
+# @ rambo
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"
+
+# @ rambo
+#: search.php:35
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ rambo
+#: search.php:37
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:28
+msgid "Theme Feature Goes Here!"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:29
+msgid ""
+"Rambo makes content easy to view on any device with any resolution. You may "
+"check this with resizing. Fully Responsive Theme Amazing Design."
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:34
+msgid "Service One"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:35 theme_setup_data.php:39 theme_setup_data.php:43
+#: theme_setup_data.php:47
+msgid ""
+"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit "
+"amet risus etiam porta sem"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:38
+msgid "Service Two"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:42
+msgid "Service Three"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:46
+msgid "Service Four"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:51
+msgid "&copy;2013&nbsp;ALL Rights Reserved"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:52
+msgid "Designed By"
+msgstr ""
+
+# @ rambo
+#: theme_setup_data.php:53
+msgid "Webriti"
+msgstr ""
