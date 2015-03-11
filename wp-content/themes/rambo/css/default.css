@@ -126,10 +126,10 @@ a {
 .logo-title {
 	padding: 0 20px 5px 20px;
     color: #db2723;
-    border: 2px solid #DB2723;
+    /*border: 2px solid #DB2723;
     border-radius: 30px;
 	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
+	-webkit-border-radius: 30px;*/
 }
 .logo-title small{
     color: #4d4e4f;
@@ -249,7 +249,7 @@ a.featured_port_projects_btn:hover{
   color: #ffffff;
 }
 .hero-unit-small {
-  background-color: #232768;
+  background-color: #535354;
 }
 .about_img{
 	box-shadow: 3px 3px 5px #c6c2c2;
@@ -318,7 +318,7 @@ a.featured_port_projects_btn:hover{
 }
 /* ------Widgets Section Css ----------*/
 .hero-widgets-section {
-  background-color: #db2327;
+  background-color: #2a2b2e;
 }
 .widget_title {
     border-bottom: 2px solid #eeeeee;
@@ -362,7 +362,7 @@ a.aboutus_readmore:hover{
 /* ------Footer Section Css ----------*/
 .footer-section {
   border-top: 1px solid #6a6a6b;
-  background-color: #232768;
+  background-color: #36373a;
 }
 .footer-section p{
 	color: #CCCCCC;

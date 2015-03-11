@@ -8,6 +8,7 @@
 * @filesource   :	wp-content/themes/rambo/page.php
 */
 get_template_part('banner','strip');?>
+<?php echo do_shortcode("[metaslider id=71]");?>
 <!-- Container -->
 <div class="container">
 	<!-- Blog Section Content -->

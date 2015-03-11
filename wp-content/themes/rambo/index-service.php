@@ -17,7 +17,7 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_one_icon']!='') { ?>
 				<span class="fa-stack fa-4x icon_align_center">					
-					<i class="fa  <?php echo $current_options['home_service_one_icon']; ?> home_media_icon_1x fa-inverse"></i>
+					<i class="fa  <?php echo $current_options['home_service_one_icon']; ?> home_media_icon_1x"></i>
 				</span>
 				<?php } ?>
 				<h2><?php if(isset($current_options['home_service_one_title'])) { echo $current_options['home_service_one_title']; } ?></h2>
@@ -26,7 +26,7 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_two_icon']!='') { ?>
 				<span class="fa-stack fa-4x icon_align_center">					
-					<i class="fa <?php echo $current_options['home_service_two_icon']; ?> home_media_icon_1x fa-inverse"></i>
+					<i class="fa <?php echo $current_options['home_service_two_icon']; ?> home_media_icon_1x"></i>
 				</span>
 				<?php } ?>
 				<h2><?php if(isset($current_options['home_service_two_title'])) { echo $current_options['home_service_two_title']; } ?></h2>
@@ -36,7 +36,7 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_three_icon']!='') { ?>
 				<span class="fa-stack fa-4x icon_align_center">					
-					<i class="fa <?php echo $current_options['home_service_three_icon']; ?> home_media_icon_1x fa-inverse"></i>
+					<i class="fa <?php echo $current_options['home_service_three_icon']; ?> home_media_icon_1x"></i>
 				</span>
 				<?php } ?>
 				<h2><?php if(isset($current_options['home_service_three_title'])) { echo $current_options['home_service_three_title']; } ?></h2>
@@ -46,7 +46,7 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 			<?php if($current_options['home_service_fourth_icon']!='')  { ?>	
 				<span class="fa-stack fa-4x icon_align_center">								
-					<i class="fa <?php  echo $current_options['home_service_fourth_icon']; ?> home_media_icon_1x fa-inverse"></i>					
+					<i class="fa <?php  echo $current_options['home_service_fourth_icon']; ?> home_media_icon_1x"></i>					
 				</span><?php } ?>
 				<h2><?php if(isset($current_options['home_service_fourth_title'])) { echo $current_options['home_service_fourth_title']; } ?></h2>
 				<p> <?php if(isset($current_options['home_service_fourth_description'])) { echo $current_options['home_service_fourth_description']; } ?></p>

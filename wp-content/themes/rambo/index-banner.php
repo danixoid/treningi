@@ -12,9 +12,9 @@ if($current_options['home_banner_enabled']=="on")
 { 	
 ?>
 <?php 
-    echo do_shortcode("[metaslider id=4]"); 
+   // echo do_shortcode("[metaslider id=4]"); 
 ?>
-<!-- 
+
 <div class="front_banner">	
 	<div class="banner">			
 		<li><img  class="banner_img webrit_slides" src="<?php if($current_options['home_custom_image']!='') { echo $current_options['home_custom_image']; } ?>">
@@ -24,5 +24,5 @@ if($current_options['home_banner_enabled']=="on")
 			</div>
 		</li>
 	</div>			
-</div> -->
+</div>
 <?php } ?>
