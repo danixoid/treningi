@@ -120,12 +120,14 @@ font-family: 'RobotoRegular';
      -moz-border-radius: 25px 25px 25px 25px;
           border-radius: 25px 25px 25px 25px;
 }
+
 .home_service_icon{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
 }
+
 .home_service h2{
     font-family: 'RobotoBold';
     margin: 22px 0 20px;
@@ -161,7 +163,7 @@ font-family: 'RobotoRegular';
     width: 100%;
 }
 .home_media_icon_1x:hover {
-	font-size: 0.7em;
+	/*font-size: 0.7em;*/
 }
 .icon_align_center{
 	display: block !important;
@@ -175,6 +177,18 @@ font-family: 'RobotoRegular';
 	line-height: 1.7em !important;
 	background: none repeat scroll 0 0 #333333;
     border-radius: 50%;
+	transition:All 0.3s ease;
+	-webkit-transition:All 0.3s ease;
+	-moz-transition:All 0.3s ease;
+	-o-transition:All 0.3s ease;
+}
+.icon_align_center:hover{
+	transform: rotate(360deg) scale(1.2);
+	-webkit-transform: rotate(360deg) scale(1.2);
+	-moz-transform: rotate(360deg) scale(1.2);
+	-o-transform: rotate(360deg) scale(1.2);
+	-ms-transform: rotate(360deg) scale(1.2);
+	background-color: #FF0000;
 }
 /* ---FontAwesome css added by shahid --------------------------- */
 
