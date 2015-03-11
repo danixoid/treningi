@@ -26,7 +26,7 @@
 <body <?php body_class(); ?>>
 	<!--Menu Wrapper-->
 	<div class="container">
-		<div class="navbar">
+		<div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
                   <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
