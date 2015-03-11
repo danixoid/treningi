@@ -7,6 +7,9 @@
 * @license      :	license.txt
 * @filesource   :	wp-content/themes/rambo/functions.php
 */
+
+show_admin_bar( false );
+
 	/**Includes reqired resources here**/
 	define('WEBRITI_TEMPLATE_DIR_URI',get_template_directory_uri());
 	define('WEBRITI_TEMPLATE_DIR',get_template_directory());

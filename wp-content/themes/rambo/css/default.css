@@ -13,8 +13,14 @@
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   color: #fff !important;
+  background: #FB7773 !important;
+}
+.navbar .nav > li.current_page_item > a,
+.navbar .nav > li.current_page_parent > a {
+  color: #fff !important;
   background: #DB2723 !important;
 }
+
 .navbar .nav > .active > a { color: #fff; background-color: #DB2723;}
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
@@ -118,7 +124,12 @@ a {
 }
 /*-- Logo css --*/
 .logo-title {
+	padding: 0 10px 5px 10px;
     color: #db2723;
+    border: 2px solid #DB2723;
+    border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
 }
 .logo-title small{
     color: #4d4e4f;

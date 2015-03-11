@@ -41,7 +41,10 @@
 						$blogname1 = substr($blogname,0,1);
 						$blogname2 = substr($blogname,1);
 				  ?>
-				  <span class="logo-title"><?php echo ucfirst($blogname1); ?><small><?php echo $blogname2; ?></small></span>
+				  <span class="logo-title">
+				  	<!-- <?php echo ucfirst($blogname1); ?> -->
+				  	<small><?php echo $blogname; ?></small>
+				  </span>
 				  <?php } else if($rambo_current_options['upload_image_logo']!='')
 						{ ?><img id="logo_image" src="<?php echo $rambo_current_options['upload_image_logo']; ?>"  /><?php
 						} ?>
