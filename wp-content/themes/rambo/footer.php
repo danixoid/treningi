@@ -47,8 +47,16 @@ $current_options = get_option('rambo_theme_options'); ?>
 	<div class="container">
 		<div class="row">				
 			<div class="span8">
-				<p><?php if (is_home() || is_category() || is_archive() ){ ?> <a href="http://best-wordpress-templates.ru/">WordPress темы</a> <?php } ?>
-
+				<!-- <p><?php if (is_home() || is_category() || is_archive() ){ ?> <a href="http://best-wordpress-templates.ru/">WordPress темы</a> <?php } ?> -->
+				<p>
+					<?php echo $current_options["rambo_copy_rights_text"]; ?>
+					|
+					<a href="<?php echo $current_options["rambo_designed_by_link"]; ?>">
+						<?php echo $current_options['rambo_designed_by_head']; ?>
+						<?php echo $current_options["rambo_designed_by_text"]; ?>
+					</a>
+				</p>
+					
 
 <?php if ($user_ID) : ?><?php else : ?>
 <?php if (is_single() || is_page() ) { ?>
