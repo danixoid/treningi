@@ -55,7 +55,7 @@
 									'fallback_cb' => 'rambo_fallback_page_menu',
 									'walker' => new rambo_nav_walker()
 									)
-								);	?>                    
+								);	?>
                   </div><!-- /.nav-collapse -->
                 </div>
             </div><!-- /navbar-inner -->
