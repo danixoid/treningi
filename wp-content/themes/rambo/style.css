@@ -157,6 +157,7 @@ font-family: 'RobotoRegular';
 }
 .home_media_icon_1x {
     font-size: 0.6em;
+    color: #555555;
     line-height: inherit !important;
     position: absolute;
     text-align: center;
@@ -176,7 +177,7 @@ font-family: 'RobotoRegular';
 	width: 90px !important;
 	line-height: 1.7em !important;
 	/*background: none repeat scroll 0 0 #232768;*/
-	border: 2px solid #222222;
+	border: 2px solid #555555;
     border-radius: 50%;
 	transition:All 0.3s ease;
 	-webkit-transition:All 0.3s ease;
