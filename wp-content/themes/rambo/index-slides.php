@@ -18,11 +18,19 @@
 			<p>Единое тренинговое пространство  Perfecta</p>
 		</div>	
 		<div class="row">
-            <div class="">
-				<?php dynamic_sidebar( 'my-widget-area' ); ?>
-			</div>	
-        </div>
+            <?php dynamic_sidebar( 'my-widget-area' ); ?>
+		</div>
 	</div>
 </div>
 
+
+
 <?php } ?> 
+
+
+<?php 
+    if ( is_active_sidebar( 'my-last-news' ) ) {
+        dynamic_sidebar( 'my-last-news' );
+    } 
+?> 
+

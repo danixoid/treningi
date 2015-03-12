@@ -287,6 +287,9 @@ a.featured_port_projects_btn:hover{
 	word-break: break-all;
 
 }
+.latest_news_section h3 a{
+    color: #555555;
+}
 .p_justify{
 	text-align: justify;
 	font-size: 15px;

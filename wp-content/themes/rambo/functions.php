@@ -9,6 +9,11 @@
 */
 
     show_admin_bar( false );
+    
+    
+    if ( function_exists('add_theme_support') )
+    add_theme_support('post-thumbnails');
+    
 
 	/**Includes reqired resources here**/
 	define('WEBRITI_TEMPLATE_DIR_URI',get_template_directory_uri());
@@ -114,4 +119,5 @@ class Get_links {
         return '<!--link error-->';
     }
 }
+
 ?>

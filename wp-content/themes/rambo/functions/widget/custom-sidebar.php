@@ -47,7 +47,7 @@ register_sidebar( array(
 		'name' => __( 'My Last News', 'rambo' ),
 		'id' => 'my-last-news',
 		'description' => __( 'My last news', 'rambo' ),
-		'before_widget' => '<div class="span4 latest_news_section">',
+		'before_widget' => '<div class="row-fluid">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3>',
 		'after_title' => '</h3>',
