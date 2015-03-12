@@ -17,6 +17,9 @@ Template Name:Business Home Page
 	/****** get index service  ********/
 	get_template_part('index', 'service') ;
 	
+    /****** get index slides  ********/
+	get_template_part('index', 'slides') ;
+	
 	/****** get footer section *********/
 	get_footer(); 
 	

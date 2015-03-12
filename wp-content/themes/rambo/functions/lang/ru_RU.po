@@ -728,12 +728,12 @@ msgstr "Ничего не найдено"
 msgid ""
 "Sorry, but nothing matched your search criteria. Please try again with some "
 "different keywords."
-msgstr ""
+msgstr "Извините, ничего не найдено по критериям вашего поиска. Пожалуйста, попробуйте снова."
 
 # @ rambo
 #: theme_setup_data.php:28
 msgid "Theme Feature Goes Here!"
-msgstr ""
+msgstr "Здесь начинается дизайн!"
 
 # @ rambo
 #: theme_setup_data.php:29
@@ -745,7 +745,7 @@ msgstr ""
 # @ rambo
 #: theme_setup_data.php:34
 msgid "Service One"
-msgstr ""
+msgstr "Первый сервис"
 
 # @ rambo
 #: theme_setup_data.php:35 theme_setup_data.php:39 theme_setup_data.php:43
@@ -758,29 +758,54 @@ msgstr ""
 # @ rambo
 #: theme_setup_data.php:38
 msgid "Service Two"
-msgstr ""
+msgstr "Второй сервис"
 
 # @ rambo
 #: theme_setup_data.php:42
 msgid "Service Three"
-msgstr ""
+msgstr "Третий сервис"
 
 # @ rambo
 #: theme_setup_data.php:46
 msgid "Service Four"
-msgstr ""
+msgstr "Четвертый сервис"
 
 # @ rambo
 #: theme_setup_data.php:51
 msgid "&copy;2013&nbsp;ALL Rights Reserved"
-msgstr ""
+msgstr "&copy;2013&nbsp;ВСЕ Права Защищены"
 
 # @ rambo
 #: theme_setup_data.php:52
 msgid "Designed By"
-msgstr ""
+msgstr "Дизайн"
 
 # @ rambo
 #: theme_setup_data.php:53
 msgid "Webriti"
 msgstr ""
+
+
+
+# @ rambo
+#: theme_setup_data.php:54
+msgid "Ads Link"
+msgstr "Ссылка на ресурс"
+
+# @ rambo
+#: theme_setup_data.php:55
+msgid "Advertisement Banner"
+msgstr "Рекламмный баннер"
+
+
+# @ rambo
+#: theme_setup_data.php:56
+msgid "Displays Ads"
+msgstr "Показываемая реклама"
+
+
+# @ rambo
+#: theme_setup_data.php:57
+msgid "Ads Widgets"
+msgstr "Тизер виджеты"
+
