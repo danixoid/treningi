@@ -146,12 +146,12 @@ msgstr "Оставить комментарий"
 # @ rambo
 #: footer.php:50
 msgid "Powered By "
-msgstr ""
+msgstr "Создано в"
 
 # @ rambo
 #: footer.php:50
 msgid "WordPress"
-msgstr ""
+msgstr "WordPress"
 
 # @ rambo
 #: functions/commentbox/comment-function.php:21
