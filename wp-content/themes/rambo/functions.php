@@ -24,7 +24,7 @@
 	
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/commentbox/comment-function.php' ); //for comments
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/widget/custom-sidebar.php' ); //for widget register
-	
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/widget/custom-widgets.php' ); //for widgets
 	//content width
 	if ( ! isset( $content_width ) ) $content_width = 770;	
 	

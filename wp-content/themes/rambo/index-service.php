@@ -13,6 +13,11 @@ if($current_options['home_service_enabled']=="on")
 ?>
 <div class="container">	
 	<!-- /Home Service Section -->
+    <div class="row-fluid featured_port_title">
+        <h1>Наши услуги</h1>
+        
+        <p>Здесь какие-то услуги</p>
+    </div>
 	<div class="row-fluid">	
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_one_icon']!='') { ?>
