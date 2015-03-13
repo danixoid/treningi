@@ -3,6 +3,11 @@
   _width: 1600px;
 }
 
+.banner > li >  img {
+  width: 100%;
+  height: 470px;
+}
+
 .front_banner {
   margin-bottom: 50px;
   position: relative;
