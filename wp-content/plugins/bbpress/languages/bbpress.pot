@@ -8,13 +8,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
-"Last-Translator: JOHN JAMES JACOBY <jjj@bbpress.org>\n"
+"PO-Revision-Date: 2015-03-13 10:28+0600\n"
+"Last-Translator: Daniyar <danixoid@gmail.com>\n"
 "Language-Team: ENGLISH <jjj@bbpress.org>\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: bbpress.php:133 bbpress.php:140
 msgid "Cheatin&#8217; huh?"
-msgstr ""
+msgstr "Читеришь? Гыгы!"
 
 #: bbpress.php:404 templates/default/bbpress-functions.php:51
 msgid "bbPress Default"
@@ -4953,4 +4954,3 @@ msgstr ""
 #. Author of the plugin/theme
 msgid "The bbPress Community"
 msgstr ""
-

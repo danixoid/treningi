@@ -59,7 +59,12 @@ class News_Widgets extends WP_Widget
                 </div>
             <?php echo $before_widget; ?>
             
-            <?php $the_query = new WP_Query( 'showposts=' . $post_count ); ?>
+            <?php $the_query = new WP_Query(  
+                array(
+                    'showposts' => $post_count,
+                    'category_name' => '',
+                )
+            ); ?>
             <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
             
             <?php 

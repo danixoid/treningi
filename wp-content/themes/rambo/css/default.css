@@ -245,6 +245,10 @@ a.featured_port_projects_btn:hover{
 .search-btn {
   background: #db2723;
   color: #ffffff;
+  
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
 }
 .hero-unit-small {
   background-color: #535354;

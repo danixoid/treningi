@@ -1006,6 +1006,7 @@ a.blog_section2_readmore:hover,.more-link:hover{
     line-height: 22px;
     margin-top: 5px;
     padding: 0;
+    height: auto;
    word-break: break-all;
 	word-wrap: break-word;
 	float: left;
