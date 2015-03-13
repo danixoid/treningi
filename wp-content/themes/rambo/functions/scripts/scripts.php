@@ -17,7 +17,8 @@ function rambo_scripts()
 	wp_enqueue_style ('bootstrap-responsive',WEBRITI_TEMPLATE_DIR_URI .'/css/bootstrap-responsive.css'); //boot rsp css
 	wp_enqueue_style ('docs',WEBRITI_TEMPLATE_DIR_URI .'/css/docs.css'); //docs css
 	wp_enqueue_style ('font',WEBRITI_TEMPLATE_DIR_URI.'/css/font/font.css'); // font css
-	
+	wp_enqueue_style ('slider',WEBRITI_TEMPLATE_DIR_URI.'/css/slider-themes.css');
+    
 	/*Default CSS*/
 	wp_enqueue_style ('default-css',WEBRITI_TEMPLATE_DIR_URI .'/css/default.css');
 	
@@ -25,6 +26,8 @@ function rambo_scripts()
 	wp_enqueue_script('bootstrap',WEBRITI_TEMPLATE_DIR_URI.'/js/menu/bootstrap.min.js',array('jquery'));
 	wp_enqueue_script('menu',WEBRITI_TEMPLATE_DIR_URI.'/js/menu/menu.js'); 
 	wp_enqueue_script('Bootstrap-transtiton',WEBRITI_TEMPLATE_DIR_URI.'/js/bootstrap-transition.js');
+    wp_enqueue_script('ResponsiveSlides',WEBRITI_TEMPLATE_DIR_URI.'/js/responsiveslides.min.js');
+    wp_enqueue_script('ResponsiveSlidesInit',WEBRITI_TEMPLATE_DIR_URI.'/js/responsiveslidesinit.js');
 }
 	add_action( 'wp_enqueue_scripts', 'rambo_scripts' );
 ?>

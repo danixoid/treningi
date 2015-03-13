@@ -12,7 +12,22 @@
     
     
     if ( function_exists('add_theme_support') )
-    add_theme_support('post-thumbnails');
+        add_theme_support('post-thumbnails');
+    
+    
+    add_filter('user_contactmethods', 'my_user_contactmethods');
+ 
+    function my_user_contactmethods($user_contactmethods){
+        unset($user_contactmethods['yim']);
+        unset($user_contactmethods['aim']);
+        unset($user_contactmethods['jabber']);
+        
+        $user_contactmethods['twitter'] = 'Twitter Username';
+        $user_contactmethods['facebook'] = 'Facebook Username';
+        
+        return $user_contactmethods;
+    }
+    
     
 
 	/**Includes reqired resources here**/

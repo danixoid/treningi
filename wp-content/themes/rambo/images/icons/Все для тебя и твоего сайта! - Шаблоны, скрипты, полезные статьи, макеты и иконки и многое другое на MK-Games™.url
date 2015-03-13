@@ -1,0 +1,16 @@
+[DEFAULT]
+BASEURL=http://neon-cs.ru/
+[DOC_aswift_0]
+BASEURL=http://neon-cs.ru/
+ORIGURL=
+[DOC_aswift_0_google_ads_frame1#28]
+BASEURL=https://googleads.g.doubleclick.net/pagead/drt/si?p=CAA&ut=AFAKxlQAAAAAT0dNi563a4AGvfw0OLnSf0yHDHJ-DYXj
+ORIGURL=http://googleads.g.doubleclick.net/pagead/drt/s?safe=on
+[InternetShortcut]
+URL=http://mk-games.ru/
+IDList=
+IconFile=C:\WINDOWS\system32\SHELL32.dll
+IconIndex=14
+HotKey=0
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

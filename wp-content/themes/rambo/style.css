@@ -176,9 +176,9 @@ font-family: 'RobotoRegular';
 	height: 90px !important;
 	width: 90px !important;
 	line-height: 1.7em !important;
-	/*background: none repeat scroll 0 0 #232768;*/
+	/*background: none repeat scroll 0 0 #232768;
 	border: 2px solid #555555;
-    border-radius: 50%;
+    border-radius: 50%;*/
 	transition:All 0.3s ease;
 	-webkit-transition:All 0.3s ease;
 	-moz-transition:All 0.3s ease;
@@ -190,6 +190,10 @@ font-family: 'RobotoRegular';
 	-moz-transform: rotate(360deg) scale(1.2);
 	-o-transform: rotate(360deg) scale(1.2);
 	-ms-transform: rotate(360deg) scale(1.2);
+}
+
+.icon_align_center > img {
+    margin: 0px auto;
 }
 /* ---FontAwesome css added by shahid --------------------------- */
 

@@ -118,9 +118,26 @@ a {
     color: #FFFFFF;
     text-shadow: 0 0 1px #226056;
     background-color: #db2723;
+    
+    float: left;
+    font-family: 'RobotoRegular';
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0px;
+    opacity: 0px;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
 }
 .flex_btn:hover {
     background-color: #3e3f41;
+    padding: 10px 30px;
 }
 /*-- Logo css --*/
 .logo-title {
