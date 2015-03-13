@@ -5873,3 +5873,36 @@ msgstr ""
 #: ../webriti-spasalon-lite-1.2.6-a6458622b109/option_pannel/spa_options_pannel.php:165
 msgid "appointment calendar"
 msgstr ""
+
+
+
+
+# @ rambo
+#: theme_setup_data.php:54
+msgid "Ads Link"
+msgstr "Ссылка на ресурс"
+
+# @ rambo
+#: theme_setup_data.php:55
+msgid "Advertisement Banner"
+msgstr "Рекламмный баннер"
+
+
+# @ rambo
+#: theme_setup_data.php:56
+msgid "Displays Ads"
+msgstr "Показываемая реклама"
+
+
+# @ rambo
+#: theme_setup_data.php:57
+msgid "Ads Widgets"
+msgstr "Тизер виджеты"
+
+
+
+# @ rambo
+#: theme_setup_data.php:58
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Извините, но поиск дал пустой результат. Пожалуйста, попробуйте изменить параметры поиска."
+
