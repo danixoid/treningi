@@ -26,7 +26,7 @@ if($current_options['home_banner_enabled']=="on")
         $media = array();
         foreach ( $query_images->posts as $image) {
             $alt = get_post_meta($image->ID, '_wp_attachment_image_alt', true);
-            //if ($alt == 'slider') 
+            if ($alt == 'slider') 
                 $media[]= array(
                     'guid'=> wp_get_attachment_url( $image->ID ),
                     'title' => $image->post_title,
@@ -49,7 +49,7 @@ if($current_options['home_banner_enabled']=="on")
             <div class="banner_con">
                 <h2><?php echo $pict['caption'] ?></h2>
                 <h5 class="banner-title"><span><?php echo $pict['description'] ?></span></h5>
-                <a href="http://treningi.kz" class="flex_btn" target="_blank"><?php _e('Читать'); ?></a>
+                <!--<a href="http://treningi.kz" class="flex_btn" target="_blank"><?php _e('Читать'); ?></a>-->
             </div>
         </li>
     <?php } ?>
