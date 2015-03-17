@@ -21,6 +21,8 @@
         unset($user_contactmethods['yim']);
         unset($user_contactmethods['aim']);
         unset($user_contactmethods['jabber']);
+        unset($user_contactmethods['is_trener']);
+        unset($user_contactmethods['website']);
         
         $user_contactmethods['twitter'] = 'Twitter Username';
         $user_contactmethods['facebook'] = 'Facebook Username';

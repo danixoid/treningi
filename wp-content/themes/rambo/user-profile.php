@@ -31,6 +31,7 @@ if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) && $_POS
     if ( !empty( $_POST['description'] ) )
         update_usermeta( $current_user->id, 'description', esc_attr( $_POST['description'] ) );
 
+    
     /* Redirect so the page will show updated info. */
     if ( !$error ) {
         wp_redirect( get_permalink() );
@@ -43,11 +44,11 @@ if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) && $_POS
 <?php   
 /**
 * @Theme Name	:	rambo
-* @file         :	category.php
+* @file         :	user-profile.php
 * @package      :	rambo
 * @author       :	webriti
 * @license      :	license.txt
-* @filesource   :	wp-content/themes/rambo/category.php
+* @filesource   :	wp-content/themes/rambo/user-profile.php
 */ 
 get_template_part('banner','strip'); ?>
 <div class="container"><!-- Main --> 
@@ -60,45 +61,64 @@ get_template_part('banner','strip'); ?>
                 <?php the_content(); ?>
                 <?php if ( !is_user_logged_in() ) : ?>
                         <p class="warning">
-                            <?php _e('You must be logged in to edit your profile.', 'profile'); ?>
+                            <?php 
+                                _e('You must be logged in to edit your profile.', 'rambo'); 
+                                auth_redirect();
+                                exit;
+                            ?>
                         </p><!-- .warning -->
                 <?php else : ?>
                     <?php if ( $error ) echo '<p class="error">' . $error . '</p>'; ?>
                     <form method="post" id="adduser" action="<?php the_permalink(); ?>">
-                        <p class="form-username">
-                            <label for="first-name"><?php _e('First Name', 'profile'); ?></label>
-                            <input class="text-input" name="first-name" type="text" id="first-name" value="<?php the_author_meta( 'user_firstname', $current_user->id ); ?>" />
-                        </p><!-- .form-username -->
-                        <p class="form-username">
-                            <label for="last-name"><?php _e('Last Name', 'profile'); ?></label>
-                            <input class="text-input" name="last-name" type="text" id="last-name" value="<?php the_author_meta( 'user_lastname', $current_user->id ); ?>" />
-                        </p><!-- .form-username -->
-                        <p class="form-email">
-                            <label for="email"><?php _e('E-mail *', 'profile'); ?></label>
-                            <input class="text-input" name="email" type="text" id="email" value="<?php the_author_meta( 'user_email', $current_user->id ); ?>" />
-                        </p><!-- .form-email -->
-                        <p class="form-url">
-                            <label for="url"><?php _e('Website', 'profile'); ?></label>
-                            <input class="text-input" name="url" type="text" id="url" value="<?php the_author_meta( 'user_url', $current_user->id ); ?>" />
-                        </p><!-- .form-url -->
-                        <p class="form-password">
-                            <label for="pass1"><?php _e('Password *', 'profile'); ?> </label>
-                            <input class="text-input" name="pass1" type="password" id="pass1" />
-                        </p><!-- .form-password -->
-                        <p class="form-password">
-                            <label for="pass2"><?php _e('Repeat Password *', 'profile'); ?></label>
-                            <input class="text-input" name="pass2" type="password" id="pass2" />
-                        </p><!-- .form-password -->
-                        <p class="form-textarea">
-                            <label for="description"><?php _e('Biographical Information', 'profile') ?></label>
-                            <textarea name="description" id="description" rows="3" cols="50"><?php the_author_meta( 'description', $current_user->id ); ?></textarea>
-                        </p><!-- .form-textarea -->
-                        <p class="form-submit">
+                        <div class="form-group">
+                            <label for="first-name"><?php _e('First Name', 'rambo'); ?></label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="first-name" type="text" id="first-name" 
+                                    value="<?php the_author_meta( 'user_firstname', $current_user->id ); ?>" />
+                            </div>
+                        </div><!-- .form-username -->
+                        <div class="form-group">
+                            <label for="last-name"><?php _e('Last Name', 'rambo'); ?></label>
+                            <input class="form-control" name="last-name" type="text" id="last-name" 
+                                value="<?php the_author_meta( 'user_lastname', $current_user->id ); ?>" />
+                        </div><!-- .form-username -->
+                        <div class="form-group">
+                            <label for="email"><?php _e('E-mail *', 'rambo'); ?></label>
+                            <div class="col-sm-10">
+                                <input class="text-input" name="email" type="text" id="email" 
+                                    value="<?php the_author_meta( 'user_email', $current_user->id ); ?>" />
+                            </div>
+                        </div><!-- .form-email -->
+                        <div class="form-group">
+                            <label for="url"><?php _e('Website', 'rambo'); ?></label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="url" type="text" id="url" 
+                                    value="<?php the_author_meta( 'user_url', $current_user->id ); ?>" />
+                            </div>
+                        </div><!-- .form-url -->
+                        <div class="form-group">
+                            <label for="pass1"><?php _e('Password *', 'rambo'); ?> </label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="pass1" type="password" id="pass1" />
+                            </div>
+                        </div><!-- .form-password -->
+                        <div class="form-group">
+                            <label for="pass2"><?php _e('Repeat Password *', 'rambo'); ?></label>
+                            <input class="form-control" name="pass2" type="password" id="pass2" />
+                        </div><!-- .form-password -->
+
+                        <div class="form-group">
+                            <label for="description"><?php _e('Biographical Information', 'rambo') ?></label>
+                            <div class="col-sm-10">
+                                <textarea name="description" id="description" rows="3" cols="50"><?php the_author_meta( 'description', $current_user->id ); ?></textarea>
+                            </div>
+                        </div><!-- .form-textarea -->
+                        <div class="form-group">
                             <?php echo $referer; ?>
-                            <input name="updateuser" type="submit" id="updateuser" class="submit button" value="<?php _e('Update', 'profile'); ?>" />
+                            <input name="updateuser" type="submit" id="updateuser" class="btn btn-danger" value="<?php _e('Update', 'rambo'); ?>" />
                             <?php wp_nonce_field( 'update-user' ) ?>
                             <input name="action" type="hidden" id="action" value="update-user" />
-                        </p><!-- .form-submit -->
+                        </div><!-- .form-submit -->
                     </form><!-- #adduser -->
                     <?php endif; ?>
                 </div><!-- .entry-content -->

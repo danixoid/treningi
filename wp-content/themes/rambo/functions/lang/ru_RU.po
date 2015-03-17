@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Rambo v1.0.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-13 10:05+0600\n"
+"PO-Revision-Date: 2015-03-17 11:32+0600\n"
 "Last-Translator: Daniyar <danixoid@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -786,3 +786,33 @@ msgstr "Дизайн"
 #: theme_setup_data.php:53
 msgid "Webriti"
 msgstr ""
+
+msgid "You must be logged in to edit your profile."
+msgstr "Вы должны войти в систему, чтобы редактировать свой профиль."
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Second Name"
+msgstr "Фамилия"
+
+msgid "Last Name"
+msgstr "Отчество"
+
+msgid "E-mail *"
+msgstr "E-mail *"
+
+msgid "Website"
+msgstr "Веб-сайт"
+
+msgid "Password *"
+msgstr "Пароль *"
+
+msgid "Repeat Password *"
+msgstr "Повторите пароль *"
+
+msgid "Biographical Information"
+msgstr "О себе"
+
+msgid "Is trener"
+msgstr "Тренер"
