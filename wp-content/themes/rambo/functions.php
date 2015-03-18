@@ -8,8 +8,9 @@
 * @filesource   :	wp-content/themes/rambo/functions.php
 */
 
-    show_admin_bar( false );
-    
+    if ( ! current_user_can( 'manage_options' ) ) {
+        show_admin_bar( false );
+    }
     
     if ( function_exists('add_theme_support') )
         add_theme_support('post-thumbnails');

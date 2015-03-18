@@ -73,7 +73,7 @@ class Ads_Widgets extends WP_Widget
                   <?php //if ( $title )
                         //echo $before_title . $title . $after_title; ?>
                 <div class="featured_service_content">
-                    <?php echo '<img width="1920" height="1275"  src="'.$image.'" 
+                    <?php if ($image != '') echo '<img width="1920" height="1275"  src="'.$image.'" 
                         class="attachment-post-thumbnail wp-post-image" alt="'.$title.'"/>'; ?>
                     <h3><?php echo '<a href="'.$link.'" target="_blank">'.$title; ?></a></h3>
                     <p class="p_justify"><?php echo do_excerpt($message, 13); ?></p>
