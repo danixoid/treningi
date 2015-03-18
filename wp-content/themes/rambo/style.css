@@ -298,6 +298,9 @@ a.featured_port_projects_btn:hover{
 	text-align: justify;
 	font-size: 15px;
 	line-height: 22px;
+    display: block;
+    clear: both;
+    height: 100px;
 }
 .latest_news_img{
 	width: 162px;
