@@ -76,7 +76,7 @@ class Ads_Widgets extends WP_Widget
                     <?php echo '<img width="1920" height="1275"  src="'.$image.'" 
                         class="attachment-post-thumbnail wp-post-image" alt="'.$title.'"/>'; ?>
                     <h3><?php echo '<a href="'.$link.'" target="_blank">'.$title; ?></a></h3>
-                    <p class="p_justify"><?php echo $message; ?></p>
+                    <p class="p_justify"><?php echo do_excerpt($message, 50); ?></p>
                     <p><?php echo '<a class="featured_port_projects_btn pull-right" href="'.$link.'" target="_blank">'; ?>Читать далее</a></p>
                 </div>
               <?php echo $after_widget; ?>
