@@ -22,21 +22,19 @@ get_template_part('banner','strip'); ?>
 				<div class="media">
                     
 					<div class="media-body">
-                        <?php 
-                            $excerpt = preg_split('/\.\s+/',get_the_excerpt(__( 'Read More' , 'rambo')),2);
-                        ?> 
-                        <p><?php echo $excerpt[0] . '.'; ?> </p>
-                        
                         <?php $defalt_arg =array('class' => "blog_section_img" )?>
                         <?php if(has_post_thumbnail()):?>
+                        <?php $excerpt = preg_split('/\.\s+/',get_the_excerpt(__( 'Read More' , 'rambo')),2);?> 
+                        <p><?php echo $excerpt[0] . '.'; ?> </p>
                         <a  href="<?php the_permalink(); ?>" class="blog_pull_img">
                         <?php the_post_thumbnail('blog2_section_img', $defalt_arg); //media-object?>
                         </a>
+                        <p><?php echo $excerpt[1]; ?></p>
+                        <?php else: ?>
+                        <p><?php the_excerpt( __( 'Read More' , 'rambo' ) );?></p>
                         <?php endif;?>
-                        <p>
-                            <?php echo $excerpt[1]; ?> 
-                            <?php //the_excerpt( __( 'Read More' , 'rambo' ) );?>
-                        </p>
+                        
+                        
                         <?php $posttags = get_the_tags();?>
                         <p><?php if($posttags) { ?>
                         <span class="blog_tags"><i class="fa fa-tags"></i> 
