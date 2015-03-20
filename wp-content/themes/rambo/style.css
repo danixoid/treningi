@@ -858,8 +858,9 @@ a.aboutus_readmore:hover{
 }
 .blog_section_img{
 	/* width: 100%; */
-	width: 270px;
-	height: 260px;
+	_width: 270px;
+    width: 100%;
+	_height: 260px;
 	transition: opacity .3s ease-out;
     -moz-transition: opacity .3s ease-out;
     -webkit-transition: opacity .3s ease-out;
