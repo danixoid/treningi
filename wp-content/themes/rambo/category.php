@@ -30,7 +30,7 @@ get_template_part('banner','strip'); ?>
                         <?php $defalt_arg =array('class' => "blog_section_img" )?>
                         <?php if(has_post_thumbnail()):?>
                         <a  href="<?php the_permalink(); ?>" class="blog_pull_img">
-                        <?php the_post_thumbnail('media-object', $defalt_arg); ?>
+                        <?php the_post_thumbnail('blog2_section_img', $defalt_arg); //media-object?>
                         </a>
                         <?php endif;?>
                         <p>
