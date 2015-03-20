@@ -12,14 +12,14 @@ get_template_part('banner','strip'); ?>
 		<div class="row-fluid">
         <div class="span8 Blog_main">
 			<?php  while(have_posts()): the_post();?>
-			<div class="blog_single_post">
+			<div class="blog_section">
 				<!--<h2><?php  _e( "Category  Archives:", 'rambo'); echo single_cat_title( '', false ); ?></h2>-->
 				<h2><a href="<?php the_permalink(); ?>"title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 				</h2>
 				<div class="media">
 					<?php $defalt_arg =array('class' => "blog_section_img" )?>
 					<?php if(has_post_thumbnail()):?>
-					<a  href="<?php the_permalink(); ?>" class="pull-left blog_pull_img">
+					<a  href="<?php the_permalink(); ?>" class="blog_pull_img">
 					<?php the_post_thumbnail('media-object', $defalt_arg); ?>
 					</a>
 					<?php endif;?>
