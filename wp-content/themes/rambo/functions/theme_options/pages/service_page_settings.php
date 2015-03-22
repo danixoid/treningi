@@ -12,19 +12,22 @@
 				$current_options['home_service_one_icon']=sanitize_text_field($_POST['home_service_one_icon']);
 				$current_options['home_service_one_title']=sanitize_text_field($_POST['home_service_one_title']);
 				$current_options['home_service_one_description']=sanitize_text_field($_POST['home_service_one_description']);
+				$current_options['home_service_one_url']=sanitize_text_field($_POST['home_service_one_url']);
 				
 				$current_options['home_service_two_icon']=sanitize_text_field($_POST['home_service_two_icon']);
 				$current_options['home_service_two_title']=sanitize_text_field($_POST['home_service_two_title']);
 				$current_options['home_service_two_description']=sanitize_text_field($_POST['home_service_two_description']);
+				$current_options['home_service_two_url']=sanitize_text_field($_POST['home_service_two_url']);
 				
 				$current_options['home_service_three_icon']=sanitize_text_field($_POST['home_service_three_icon']);
 				$current_options['home_service_three_title']=sanitize_text_field($_POST['home_service_three_title']);
 				$current_options['home_service_three_description']=sanitize_text_field($_POST['home_service_three_description']);
-				
+				$current_options['home_service_three_url']=sanitize_text_field($_POST['home_service_three_url']);
+
 				$current_options['home_service_fourth_icon']=sanitize_text_field($_POST['home_service_fourth_icon']);
 				$current_options['home_service_fourth_title']=sanitize_text_field($_POST['home_service_fourth_title']);
 				$current_options['home_service_fourth_description']=sanitize_text_field($_POST['home_service_fourth_description']);
-				
+				$current_options['home_service_fourth_url']=sanitize_text_field($_POST['home_service_fourth_url']);				
 				
 				if($_POST['home_service_enabled'])
 				{ echo $current_options['home_service_enabled']= sanitize_text_field($_POST['home_service_enabled']); } 
@@ -43,18 +46,22 @@
 			$current_options['home_service_one_icon']="fa-tachometer";
 			$current_options['home_service_one_title']="fa-tachometer ";
 			$current_options['home_service_one_description']="Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem";
+                        $current_options['home_service_one_url']="http://bapps.kz";
 			
 			$current_options['home_service_two_icon']="fa-film";
 			$current_options['home_service_two_title']="fa-film";
 			$current_options['home_service_two_description']="Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem";
+                        $current_options['home_service_two_url']="http://bapps.kz";
 			
 			$current_options['home_service_three_icon']="fa-fighter-jet";
 			$current_options['home_service_three_title']="fa-fighter-jet";
 			$current_options['home_service_three_description']="Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem";
+                        $current_options['home_service_three_url']="http://bapps.kz";
 			
 			$current_options['home_service_fourth_icon']="fa-flag-checkered";
 			$current_options['home_service_fourth_title']="fa-flag-checkered";
 			$current_options['home_service_fourth_description']="Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem";
+                        $current_options['home_service_fourth_url']="http://bapps.kz";
 			
 			
 			
@@ -82,6 +89,10 @@
 			<h3>Описание</h3>
 			<textarea rows="5" cols="8" id="home_service_one_description" name="home_service_one_description"  class="textbox1"><?php if(isset($current_options['home_service_one_description'])) { echo esc_attr($current_options['home_service_one_description']); } ?></textarea>
 			<div class="">Введите описание до 150 симв.<br></div>
+
+			<h3>Ссылка</h3>
+			<input class="webriti_inpute"  type="text" name="home_service_one_url" id="home_service_one_url" value="<?php if( isset($current_options['home_service_one_url'])) echo $current_options['home_service_one_url']; ?>" >
+			<span class="icons help"><span class="tooltip">Введите URL</span></span>
 		</div>		
 		
 		<div class="section">
@@ -98,6 +109,10 @@
 			<h3>Описание</h3>
 			<textarea rows="5" cols="8" id="home_service_two_description" name="home_service_two_description"  class="textbox1"><?php if(isset($current_options['home_service_two_description'])) { echo esc_attr($current_options['home_service_two_description']); } ?></textarea>
 			<div class="">Введите описание до 150 симв.<br></div>
+
+			<h3>Ссылка</h3>
+			<input class="webriti_inpute"  type="text" name="home_service_two_url" id="home_service_two_url" value="<?php if( isset($current_options['home_service_two_url'])) echo $current_options['home_service_two_url']; ?>" >
+			<span class="icons help"><span class="tooltip">Введите URL</span></span>
 		</div>	
 		
 		<div class="section">
@@ -114,6 +129,10 @@
 			<h3>Описание</h3>
 			<textarea rows="5" cols="8" id="home_service_three_description" name="home_service_three_description"  class="textbox1"><?php if(isset($current_options['home_service_three_description'])) { echo esc_attr($current_options['home_service_three_description']); } ?></textarea>
 			<div class="">Введите описание до 150 симв.<br></div>
+
+			<h3>Ссылка</h3>
+			<input class="webriti_inpute"  type="text" name="home_service_three_url" id="home_service_three_url" value="<?php if( isset($current_options['home_service_three_url'])) echo $current_options['home_service_three_url']; ?>" >
+			<span class="icons help"><span class="tooltip">Введите URL</span></span>
 		</div>	
 		<div class="section">
 			<h3>Сервис четвертый</h3>
@@ -129,6 +148,10 @@
 			<h3>Описание</h3>
 			<textarea rows="5" cols="8" id="home_service_fourth_description" name="home_service_fourth_description"  class="textbox1"><?php if(isset($current_options['home_service_fourth_description'])) { echo esc_attr($current_options['home_service_fourth_description']); } ?></textarea>
 			<div class="">Введите описание до 150 симв.<br></div>
+
+			<h3>Ссылка</h3>
+			<input class="webriti_inpute"  type="text" name="home_service_fourth_url" id="home_service_fourth_url" value="<?php if( isset($current_options['home_service_fourth_url'])) echo $current_options['home_service_fourth_url']; ?>" >
+			<span class="icons help"><span class="tooltip">Введите URL</span></span>
 		</div>	
 		
 		<div id="button_section">

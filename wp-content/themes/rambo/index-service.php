@@ -12,18 +12,22 @@ if($current_options['home_service_enabled']=="on")
 {
 ?>
 <div class="container">	
+
 	<!-- /Home Service Section -->
     <div class="row-fluid featured_port_title">
-        <h1>Наши услуги</h1>
+    	
+        <!--<h1>Наши услуги</h1>
         
-        <p>Здесь какие-то услуги</p>
+        <p>Здесь какие-то услуги</p>-->
     </div>
 	<div class="row-fluid">	
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_one_icon']!='') { ?>
 				<!--<span class="fa-stack fa-4x icon_align_center">-->					
+                                <a href="<?php echo $current_options['home_service_one_url'] ?>">
 					<img class="icon_align_center" src="<?php echo WEBRITI_TEMPLATE_DIR_URI . '/images/icons/128x128/'
                         .$current_options['home_service_one_icon'];?>" />
+                                </a>
                     <!--<i class="fa  <?php echo $current_options['home_service_one_icon']; ?> home_media_icon_1x"></i>
 				</span>-->
 				<?php } ?>
@@ -33,8 +37,11 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_two_icon']!='') { ?>
 				<!--<span class="fa-stack fa-4x icon_align_center">-->
+                                <a href="<?php echo $current_options['home_service_two_url'] ?>">
 					<img class="icon_align_center" src="<?php echo WEBRITI_TEMPLATE_DIR_URI . '/images/icons/128x128/'
+                                
                         .$current_options['home_service_two_icon'];?>" />
+                                </a>
                     <!--<i class="fa <?php echo $current_options['home_service_two_icon']; ?> home_media_icon_1x"></i>
 				</span>-->
 				<?php } ?>
@@ -45,8 +52,10 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 				<?php if($current_options['home_service_three_icon']!='') { ?>
 				<!--<span class="fa-stack fa-4x icon_align_center">-->
+                                <a href="<?php echo $current_options['home_service_three_url'] ?>">
 					<img class="icon_align_center" src="<?php echo WEBRITI_TEMPLATE_DIR_URI . '/images/icons/128x128/'
                         .$current_options['home_service_three_icon'];?>" />
+                                </a>
                     <!--<i class="fa <?php echo $current_options['home_service_three_icon']; ?> home_media_icon_1x"></i>
 				</span>-->
 				<?php } ?>
@@ -57,8 +66,10 @@ if($current_options['home_service_enabled']=="on")
 			<div class="span3 home_service">
 			<?php if($current_options['home_service_fourth_icon']!='')  { ?>	
 				<!--<span class="fa-stack fa-4x icon_align_center">-->
+                                <a href="<?php echo $current_options['home_service_fourth_url'] ?>">
 					<img class="icon_align_center" src="<?php echo WEBRITI_TEMPLATE_DIR_URI . '/images/icons/128x128/'
                         .$current_options['home_service_fourth_icon'];?>" />
+                                </a>
                     <!--<i class="fa <?php  echo $current_options['home_service_fourth_icon']; ?> home_media_icon_1x"></i>
 				</span>-->
                 <?php } ?>

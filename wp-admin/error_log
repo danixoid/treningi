@@ -1,0 +1,96 @@
+[20-Mar-2015 11:58:14 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 11:58:14 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 11:58:14 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 11:58:14 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 12:19:08 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 12:19:08 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 12:19:08 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 12:19:08 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 12:21:40 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 12:21:40 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 12:21:40 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 12:21:40 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 12:25:18 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 12:25:18 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 12:25:18 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 12:25:18 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 12:33:31 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 12:33:31 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 12:33:31 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 12:33:31 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 12:35:21 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 12:35:21 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 12:35:21 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 12:35:21 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 12:44:05 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 12:44:05 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 12:44:05 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 12:44:05 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:01:42 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING), expecting function (T_FUNCTION) in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php on line 64
+[20-Mar-2015 14:02:38 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(65) : runtime-created function on line 1
+[20-Mar-2015 14:02:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:02:44 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(65) : runtime-created function on line 1
+[20-Mar-2015 14:02:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:02:44 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:02:44 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:02:44 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:02:44 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:03:08 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(65) : runtime-created function on line 1
+[20-Mar-2015 14:03:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:03:08 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:03:08 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:03:08 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:03:08 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:03:12 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(65) : runtime-created function on line 1
+[20-Mar-2015 14:03:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:03:13 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:03:13 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:03:13 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:03:13 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:03:16 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(65) : runtime-created function on line 1
+[20-Mar-2015 14:03:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:03:17 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:03:17 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:03:17 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:03:17 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:04:27 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(58) : runtime-created function on line 1
+[20-Mar-2015 14:04:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:04:27 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:04:27 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:04:27 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:04:27 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:05:29 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(58) : runtime-created function on line 1
+[20-Mar-2015 14:05:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:06:10 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(58) : runtime-created function on line 1
+[20-Mar-2015 14:06:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:06:10 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:06:10 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:06:10 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:06:10 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:06:55 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(58) : runtime-created function on line 1
+[20-Mar-2015 14:06:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:06:55 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:06:55 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:06:55 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:06:55 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:07:57 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(58) : runtime-created function on line 1
+[20-Mar-2015 14:07:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:08:00 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php(58) : runtime-created function on line 1
+[20-Mar-2015 14:08:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/perfecta/public_html/wp-includes/plugin.php on line 496
+[20-Mar-2015 14:08:00 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:08:00 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:08:00 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:08:00 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:08:18 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:08:18 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:08:18 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:08:18 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:08:35 UTC] PHP Notice:  Undefined index: post_count in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/custom-widgets.php on line 20
+[20-Mar-2015 14:08:35 UTC] PHP Notice:  Undefined index: message in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 20
+[20-Mar-2015 14:08:35 UTC] PHP Notice:  Undefined index: image in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 21
+[20-Mar-2015 14:08:35 UTC] PHP Notice:  Undefined index: link in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/ads-widgets.php on line 22
+[20-Mar-2015 14:19:36 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php on line 58
+[20-Mar-2015 14:20:36 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php on line 58
+[20-Mar-2015 14:21:36 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php on line 58
+[20-Mar-2015 14:22:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php on line 60
+[20-Mar-2015 14:23:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/perfecta/public_html/wp-content/themes/rambo/functions/widget/submenu-widgeds.php on line 60

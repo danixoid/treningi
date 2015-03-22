@@ -12,7 +12,7 @@ get_header();?>
 <div class="hero-unit-small">
 	<div class="container">
 		<div class="row-fluid about_space">
-			<h2 class="page_head pull-left"><?php the_title();?></h2>
+			<h2 class="page_head pull-left"><?php the_breadcrumb();?></h2>
 			<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<div class="input-append search_head pull-right">
 				<input type="text"   name="s" id="s" placeholder="<?php esc_attr_e( "Search", 'rambo' ); ?>" />

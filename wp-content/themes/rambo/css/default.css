@@ -100,7 +100,8 @@ border-bottom:2px #DB2723 solid !important;
   background-color: #DB2723;
 }
 a {
-  color: #DB2723;
+  _color: #DB2723;
+  color: #FB8783;
   text-decoration: none;
 }
 
